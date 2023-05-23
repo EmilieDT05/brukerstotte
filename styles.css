@@ -1,0 +1,129 @@
+/* Generell stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+header {
+  background-color: #A594F9;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #CDC1FF;
+  color: #A594F9;
+}
+
+
+main {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #A594F9;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #CDC1FF;
+}
+
+footer {
+  background-color: #A594F9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Spesifikke seksjoner */
+#overview h2 {
+  color: #A594F9;
+}
+
+#products ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#enlarge button {
+  margin-top: 10px;
+}
+
+#descriptions ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#descriptions li a {
+  text-decoration: none;
+  color: #A594F9;
+  transition: color 0.3s ease;
+}
+
+#descriptions li a:hover {
+  color: #CDC1FF;
+}
+
+#wordpress,
+#website-maintenance,
+#strategic-communication,
+#system-documentation,
+#web-presentations,
+#social-media-videos {
+  background-color: #CDC1FF;
+}
+
+#translate button {
+  margin-top: 10px;
+}
+
+
+
